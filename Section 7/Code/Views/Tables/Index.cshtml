@@ -1,0 +1,50 @@
+﻿@model Microsoft.WindowsAzure.Storage.Table.TableQuerySegment<Person>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Entities in database</h2>
+
+<form method="post" action="/tables/save">
+    <label for="Name">Name</label>
+    <input type="text" name="Name" id="Name" class="form-control" /><br />
+    <label for="Name">Message</label>
+    <input type="text" name="Message" id="Message" class="form-control" /><br />
+    <input type="radio" name="Gender" id="male" value="Male" class="radio-inline" /> Male
+    <input type="radio" name="Gender" id="female" value="Female" class="radio-inline" /> Female <br /><br />
+    <input type="submit" value="Store" class="btn btn-default" />
+</form>
+<hr />
+@if (Model == null || Model.Count() == 0)
+{
+    <h4>Empty database</h4>
+    <p>There is no content in the database currently.</p>
+}
+else
+{
+    <table class="table table-responsive table-striped">
+        <tr>
+            <th class="col-md-2">Row ID</th>
+            <th class="col-md-5">Name</th>
+            <th class="col-md-4">Message</th>
+            <th class="col-md-1">Gender</th>
+        </tr>
+        @foreach (var entity in Model)
+        {
+        <tr>
+            <td>@entity.RowKey</td>
+            <td>@entity.Name</td>
+            <td>@entity.Message</td>
+            <td>
+                @if (entity.Gender)
+                {
+                    @:Male
+                } else
+                {
+                    @:Female
+                }
+            </td>
+        </tr>
+        }
+    </table>
+}

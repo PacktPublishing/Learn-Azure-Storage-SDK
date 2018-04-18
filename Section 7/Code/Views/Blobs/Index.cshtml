@@ -1,0 +1,24 @@
+﻿@model List<Uri>
+@{
+    ViewData["Title"] = "Blobs";
+}
+
+<h2>Files</h2>
+
+<form method="post" action="/blobs/upload" enctype="multipart/form-data">
+    <input type="file" name="file" id="file" class="form-control" />
+    <input type="submit" class="btn btn-default" value="Upload" />
+</form>
+<hr />
+@if (Model != null && Model.Count > 0)
+{
+    @foreach (var item in Model)
+    {
+        <img src="@item.ToString()" alt="Image" class="img-thumbnail" style="width: 200px; height: 200px;" />
+    }
+}
+else
+{
+    <h4>Nothing found yet.</h4>
+    <p>No blob has been uploaded. Upload one now.</p>
+}
