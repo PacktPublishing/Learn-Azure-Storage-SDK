@@ -22,29 +22,29 @@ By the end of the course, you'll know much more about how to use Azure Storage t
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-●	Prior working knowledge of the C# language
-●	Familiarity with .NET framework and Visual Studio IDE
-●	An understanding of Azure platform or any cloud platform
-●	Basic data structures, such as Queues. 
-●	Understanding of security practices.
-●	Basic understanding of command-line interfaces, and PowerShell script
+<LI>Prior working knowledge of the C# language
+<LI>Familiarity with .NET framework and Visual Studio IDE
+<LI>An understanding of Azure platform or any cloud platform
+<LI>Basic data structures, such as Queues. 
+<LI>Understanding of security practices.
+<LI>Basic understanding of command-line interfaces, and PowerShell script
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-This course has the following software requirements:
-●	Visual Studio 2017 Community Edition or Visual Studio Code
-●	.NET Framework or .NET Core stack installed
-●	Azure Storage Explorer
-●	Microsoft Azure account
-●	AzCopy command-line utility
+<LI>Visual Studio 2017 Community Edition or Visual Studio Code
+<LI>.NET Framework or .NET Core stack installed
+<LI>Azure Storage Explorer
+<LI>Microsoft Azure account
+<LI>AzCopy command-line utility
 
 
 This course has been tested on the following system configuration:
-●	OS: Windows 10
-●	Processor: Dual Core 2.0 GHz
-●	Memory: 4 GB
-●	Hard Disk Space: 4 GB for SDKs
-●	Network: Good Internet Network connection
+
+<LI>OS: Windows 10
+<LI>Processor: Dual Core 2.0 GHz
+<LI>Memory: 4 GB
+<LI>Hard Disk Space: 4 GB for SDKs
+<LI>Network: Good Internet Network connection
 
 
 ## Related Products
