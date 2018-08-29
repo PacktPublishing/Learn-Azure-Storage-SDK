@@ -1,57 +1,29 @@
-# Learn Azure Storage SDK [Video]
-This is the code repository for [Learn Azure Storage SDK [Video]](https://www.packtpub.com/big-data-and-business-intelligence/learn-azure-storage-sdk-video?utm_source=github&utm_medium=repository&utm_campaign=9781788994408), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+# Azure Redis Cache [Video]
+This is the code repository for [Azure Redis Cache [Video]](https://www.packtpub.com/virtualization-and-cloud/azure-redis-cache-video?utm_source=github&utm_medium=repository&utm_campaign=9781789344332), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
-Azure Storage is a cloud solution for data services on Azure. Developers work with many types of data: unstructured, structured, real-time, and rarely accessed. Azure Storage is a highly scalable, highly secure PaaS that offers capabilities for blob-, table-, queue-, and file-based storage. It is a powerful and flexible cloud-based storage system and service that can store seemingly limitless amounts of data for any duration of time.
-In this course, we delve into the capabilities of the Azure Storage APIs and learn how to use the Azure Storage SDK to design .NET applications. Along the way, we also cover the introductory concepts for each service, as well as third-party tools for managing Azure Storage.
-We would cover Azure Storage basics, as well as advanced topics such as the Azure Storage SDK for the development of applications. You also get security, performance, and other tips.
-By the end of the course, you'll know much more about how to use Azure Storage to build custom solutions that are optimized to meet the unique needs of your applications.
-
+This course takes Azure Redis Cache, a cloud-based solution for distributed caching, and trains you to utilize the service for your caching needs. You'll get in-depth and real-world training for Azure Redis Cache, and you'll learn how to scale your clusters, persist the in-memory cache, and fine-tune services.	
 
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Set up the environment for programming in iOS, using Xcode 
-<LI>Work with Swift data types, arrays, dictionaries, and loops 
-<LI>Implement an Object-Oriented Programming approach 
-<LI>Work with table views to display rows of data 
-<LI>Understand different types of segue and how to undo a segue 
-<LI>Understand how to persist data using UserDefaults 
-<LI>Add launch screen and app icons and improve the user interface 
-<LI>Publish your app in the App Store </LI></UL></DIV>
+<LI>We cover aspects of Continuous Testing: Unit Test Execution, Functional Testing, and Load Testing 
+<LI>We explore effective ways to manage and monitor Jenkins. You will see how to run jobs different types of slave and how to deploy a system to AWS with Ansible and with Docker on Kubernetes. </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-<LI>Prior working knowledge of the C# language
-<LI>Familiarity with .NET framework and Visual Studio IDE
-<LI>An understanding of Azure platform or any cloud platform
-<LI>Basic data structures, such as Queues. 
-<LI>Understanding of security practices.
-<LI>Basic understanding of command-line interfaces, and PowerShell script
-
+This course is focused on developers, cloud architects and engineers, and operations managers. You A basic understanding of distributed caching and Redis protocol is desirable; however, even if you don't have this, the course has enough material to get you started in no time!
 ### Technical Requirements
 This course has the following software requirements:<br/>
-<LI>Visual Studio 2017 Community Edition or Visual Studio Code
-<LI>.NET Framework or .NET Core stack installed
-<LI>Azure Storage Explorer
-<LI>Microsoft Azure account
-<LI>AzCopy command-line utility
-
-
-This course has been tested on the following system configuration:
-
-<LI>OS: Windows 10
-<LI>Processor: Dual Core 2.0 GHz
-<LI>Memory: 4 GB
-<LI>Hard Disk Space: 4 GB for SDKs
-<LI>Network: Good Internet Network connection
+Basics of Distributed computing
+Basics of Data structures
+Basics of Hashing algorithms
 
 
 ## Related Products
-* [Machine Learning In The Cloud With Azure Machine Learning [Video]](https://www.packtpub.com/application-development/machine-learning-cloud-azure-machine-learning-video?utm_source=github&utm_medium=repository&utm_campaign=9781789347524)
+* [DevOps Fundamentals with Azure [Video]](https://www.packtpub.com/networking-and-servers/devops-fundamentals-azure-video?utm_source=github&utm_medium=repository&utm_campaign=9781789610499)
 
-* [Machine Learning with Core ML in iOS 11 [Video]](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-core-ml-ios-11-video?utm_source=github&utm_medium=repository&utm_campaign=9781788620208)
+* [DevOps with GIT(Flow) Jenkins, Artifactory, Sonar, ELK, JIRA [Video]](https://www.packtpub.com/application-development/devops-gitflow-jenkins-artifactory-sonar-elk-jira-video?utm_source=github&utm_medium=repository&utm_campaign=9781789618839)
 
-* [iOS Programming in 7 Days [Video]](https://www.packtpub.com/application-development/ios-programming-7-days-video?utm_source=github&utm_medium=repository&utm_campaign=9781789135350)
-
+* [Deploying Jenkins to the Cloud with DevOps Tools [Video]](https://www.packtpub.com/networking-and-servers/deploying-jenkins-cloud-devops-tools-video?utm_source=github&utm_medium=repository&utm_campaign=9781788839778)
 
