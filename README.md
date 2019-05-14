@@ -28,9 +28,9 @@ This course is aimed at developers, IT professionals, and even database admins w
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-Windows/macOS/Linux
-Minimum 4 GB RAM
-180 GB hard-disk
+Windows/macOS/Linux<br/>
+Minimum 4 GB RAM<br/>
+180 GB hard-disk<br/>
 
 
 ## Related Products
